@@ -1,0 +1,61 @@
+module BWM4
+{ 	
+
+	item cleaningkit
+	{
+		DisplayName		    =	Weapon Cleaning Kit,
+		Icon			    =	cleaningkit,
+		Weight 			    =	1,
+		Type 			    =	Drainable,
+		UseWhileEquipped 	=	FALSE,
+		UseDelta		    =	0.02,
+	}
+	
+    fixing Clean rifleweapon
+	{
+		Require : rifleweapon,
+		Fixer 	: cleaningkit,
+	}
+
+	fixing Clean rifleweaponM4
+	{
+		Require : rifleweaponM4,
+		Fixer 	: cleaningkit,
+	}
+
+	fixing Clean shotgunweapon
+	{
+		Require : shotgunweapon,
+		Fixer 	: cleaningkit,
+	}
+
+	fixing Clean mp5gun
+	{
+		Require : mp5gun,
+		Fixer 	: cleaningkit,
+	}
+
+	fixing Clean mp5gunsd
+	{
+		Require : mp5gunsd,
+		Fixer 	: cleaningkit,
+	}
+
+	fixing Clean MP9mm
+	{
+		Require : mp9mm2threaded,
+		Fixer 	: cleaningkit,
+	}
+
+	fixing Clean MP9mm Silenced
+	{
+		Require : mp9mm2threadedsilenced,
+		Fixer 	: cleaningkit,
+	}
+
+	fixing Clean M40A3 Sniper Rifle
+	{
+		Require : m40a3rifle,
+		Fixer 	: cleaningkit,
+	}
+}

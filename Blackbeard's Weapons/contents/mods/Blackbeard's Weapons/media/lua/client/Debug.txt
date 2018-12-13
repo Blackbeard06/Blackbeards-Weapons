@@ -1,0 +1,54 @@
+require 'Reloading/ISReloadManager'
+
+function ADDMODS(_keyPressed)
+	local key = _keyPressed;
+    if key == 207 then
+		local player = getPlayer();
+		local testinv = player:getInventory();
+		
+		testinv:AddItem("BWM4.cleaningkit");
+
+		testinv:AddItem("BWM4.mp5gunsd");
+		testinv:AddItem("BWM4.mp9mm2threaded");
+		testinv:AddItem("BWM4.mp9mm2threadedsilenced");
+		testinv:AddItem("BWM4.mp5gun");
+		testinv:AddItem("BWM4.shotgunweapon");
+		testinv:AddItem("BWM4.rifleweaponm4");
+		testinv:AddItem("BWM4.rifleweapon");
+		testinv:AddItem("BWM4.m40a3rifle");
+		
+		testinv:AddItem("BWM4.762x39_round");
+		testinv:AddItem("BWM4.762x39_box");
+		testinv:AddItem("BWM4.762x39_can");
+		testinv:AddItem("BWM4.762x39_case");
+		testinv:AddItem("BWM4.762x39_cache");
+
+		testinv:AddItem("BWM4.556_Round");
+		testinv:AddItem("BWM4.556_Box");
+		testinv:AddItem("BWM4.556_Can");
+		testinv:AddItem("BWM4.556_Case");
+		testinv:AddItem("BWM4.556_Cache");
+		
+		testinv:AddItem("BWM4.12_Gauge_Shell");
+		testinv:AddItem("BWM4.12_Gauge_Box");
+		testinv:AddItem("BWM4.12_Gauge_Can");
+		testinv:AddItem("BWM4.12_Gauge_Case");
+		testinv:AddItem("BWM4.12_Gauge_Cache");
+
+		testinv:AddItem("BWM4.9mm_Round");
+		testinv:AddItem("BWM4.9mm_Box");
+		testinv:AddItem("BWM4.9mm_Can");
+		testinv:AddItem("BWM4.9mm_Case");
+		testinv:AddItem("BWM4.9mm_Cache");
+		
+		testinv:AddItem("BWM4.308_Round");
+		testinv:AddItem("BWM4.308_Box");
+		testinv:AddItem("BWM4.308_Can");
+		testinv:AddItem("BWM4.308_Case");
+		testinv:AddItem("BWM4.308_Cache");
+
+	end
+end
+
+Events.OnKeyPressed.Add(ADDMODS)
+

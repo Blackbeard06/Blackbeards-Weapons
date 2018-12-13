@@ -1,0 +1,364 @@
+module BWM4
+{	
+    
+recipe Make Ammo box
+        {
+        762x39_round=20,
+
+        Result:762x39_box,
+        Time:7.0,
+		OnCreate:putInBox_OnCreate,
+        }
+
+recipe Unpack Ammo Box
+    	{
+        762x39_box,
+
+        Result:762x39_round=20,
+        Time:5.0,
+		OnCreate:unbox_OnCreate,
+    	}
+		
+recipe Make Ammo Canister
+        {
+        762x39_box=8,
+
+        Result:762x39_can,
+        Time:7.0,
+		OnCreate:putInBox_OnCreate,
+        }
+		
+recipe Empty Ammo Canister
+        {
+        762x39_can,
+
+        Result:762x39_box=8,
+        Time:7.0,
+		OnCreate:putInBox_OnCreate,
+        }
+
+recipe Make Ammo Case
+        {
+        762x39_can=10,
+
+        Result:762x39_case,
+        Time:10.0,
+		OnCreate:putInBox_OnCreate,
+        }
+		
+recipe Empty Ammo Case
+        {
+        762x39_case,
+
+        Result:762x39_can=10,
+        Time:10.0,
+		OnCreate:putInBox_OnCreate,
+        }
+
+recipe Create Ammo Cache
+        {
+        762x39_case=4,
+
+        Result:762x39_cache,
+        Time:10.0,
+		OnCreate:putInBox_OnCreate,
+        }
+		
+recipe Break Down Ammo Cache
+        {
+        762x39_cache,
+
+        Result:762x39_case=4,
+        Time:10.0,
+		OnCreate:putInBox_OnCreate,
+        }
+
+recipe Make Ammo box
+        {
+        556_Round=20,
+
+        Result:556_Box,
+        Time:7.0,
+		OnCreate:putInBox_OnCreate,
+        }
+
+recipe Unpack Ammo Box
+    	{
+        556_Box,
+
+        Result:556_Round=20,
+        Time:5.0,
+		OnCreate:unbox_OnCreate,
+    	}
+		
+recipe Make Ammo Canister
+        {
+        556_Box=8,
+
+        Result:556_Can,
+        Time:7.0,
+		OnCreate:putInBox_OnCreate,
+        }
+		
+recipe Empty Ammo Canister
+        {
+        556_Can,
+
+        Result:556_Box=8,
+        Time:7.0,
+		OnCreate:putInBox_OnCreate,
+        }
+
+recipe Make Ammo Case
+        {
+        556_Can=10,
+
+        Result:556_Case,
+        Time:10.0,
+		OnCreate:putInBox_OnCreate,
+        }
+		
+recipe Empty Ammo Case
+        {
+        556_Case,
+
+        Result:556_Can=10,
+        Time:10.0,
+		OnCreate:putInBox_OnCreate,
+        }
+
+recipe Create Ammo Cache
+        {
+        556_Case=4,
+
+        Result:556_Cache,
+        Time:10.0,
+		OnCreate:putInBox_OnCreate,
+        }
+		
+recipe Break Down Ammo Cache
+        {
+        556_Cache,
+
+        Result:556_Case=4,
+        Time:10.0,
+		OnCreate:putInBox_OnCreate,
+        }
+
+recipe Make Ammo box
+        {
+        12_Gauge_Shell=20,
+
+        Result:12_Gauge_Box,
+        Time:7.0,
+		OnCreate:putInBox_OnCreate,
+        }
+
+recipe Unpack Ammo Box
+    	{
+        12_Gauge_Box,
+
+        Result:12_Gauge_Shell=20,
+        Time:5.0,
+		OnCreate:unbox_OnCreate,
+    	}
+		
+recipe Make Ammo Canister
+        {
+        12_Gauge_Box=8,
+
+        Result:12_Gauge_Can,
+        Time:7.0,
+		OnCreate:putInBox_OnCreate,
+        }
+		
+recipe Empty Ammo Canister
+        {
+        12_Gauge_Can,
+
+        Result:12_Gauge_Box=8,
+        Time:7.0,
+		OnCreate:putInBox_OnCreate,
+        }
+
+recipe Make Ammo Case
+        {
+        12_Gauge_Can=10,
+
+        Result:12_Gauge_Case,
+        Time:10.0,
+		OnCreate:putInBox_OnCreate,
+        }
+		
+recipe Empty Ammo Case
+        {
+        12_Gauge_Case,
+
+        Result:12_Gauge_Can=10,
+        Time:10.0,
+		OnCreate:putInBox_OnCreate,
+        }
+
+recipe Create Ammo Cache
+        {
+        12_Gauge_Case=4,
+
+        Result:12_Gauge_Cache,
+        Time:10.0,
+		OnCreate:putInBox_OnCreate,
+        }
+		
+recipe Break Down Ammo Cache
+        {
+        12_Gauge_Cache,
+
+        Result:12_Gauge_Case=4,
+        Time:10.0,
+		OnCreate:putInBox_OnCreate,
+        }
+        
+recipe Make Ammo box
+        {
+        9mm_Round=20,
+
+        Result:9mm_Box,
+        Time:7.0,
+		OnCreate:putInBox_OnCreate,
+        }
+
+recipe Unpack Ammo Box
+    	{
+        9mm_Box,
+
+        Result:9mm_Round=20,
+        Time:5.0,
+		OnCreate:unbox_OnCreate,
+    	}
+		
+recipe Make Ammo Canister
+        {
+        9mm_Box=8,
+
+        Result:9mm_Can,
+        Time:7.0,
+		OnCreate:putInBox_OnCreate,
+        }
+		
+recipe Empty Ammo Canister
+        {
+        9mm_Can,
+
+        Result:9mm_Box=8,
+        Time:7.0,
+		OnCreate:putInBox_OnCreate,
+        }
+
+recipe Make Ammo Case
+        {
+        9mm_Can=10,
+
+        Result:9mm_Case,
+        Time:10.0,
+		OnCreate:putInBox_OnCreate,
+        }
+		
+recipe Empty Ammo Case
+        {
+        9mm_Case,
+
+        Result:9mm_Can=10,
+        Time:10.0,
+		OnCreate:putInBox_OnCreate,
+        }
+
+recipe Create Ammo Cache
+        {
+        9mm_Case=4,
+
+        Result:9mm_Cache,
+        Time:10.0,
+		OnCreate:putInBox_OnCreate,
+        }
+		
+recipe Break Down Ammo Cache
+        {
+        9mm_Cache,
+
+        Result:9mm_Case=4,
+        Time:10.0,
+		OnCreate:putInBox_OnCreate,
+        }
+
+recipe Make Ammo box
+        {
+        308_Round=20,
+
+        Result:308_Box,
+        Time:7.0,
+		OnCreate:putInBox_OnCreate,
+        }
+
+recipe Unpack Ammo Box
+    	{
+        308_Box,
+
+        Result:308_Round=20,
+        Time:5.0,
+		OnCreate:unbox_OnCreate,
+    	}
+		
+recipe Make Ammo Canister
+        {
+        308_Box=8,
+
+        Result:308_Can,
+        Time:7.0,
+		OnCreate:putInBox_OnCreate,
+        }
+		
+recipe Empty Ammo Canister
+        {
+        308_Can,
+
+        Result:308_Box=8,
+        Time:7.0,
+		OnCreate:putInBox_OnCreate,
+        }
+
+recipe Make Ammo Case
+        {
+        308_Can=10,
+
+        Result:308_Case,
+        Time:10.0,
+		OnCreate:putInBox_OnCreate,
+        }
+		
+recipe Empty Ammo Case
+        {
+        308_Case,
+
+        Result:308_Can=10,
+        Time:10.0,
+		OnCreate:putInBox_OnCreate,
+        }
+
+recipe Create Ammo Cache
+        {
+        308_Case=4,
+
+        Result:308_Cache,
+        Time:10.0,
+		OnCreate:putInBox_OnCreate,
+        }
+		
+recipe Break Down Ammo Cache
+        {
+        308_Cache,
+
+        Result:308_Case=4,
+        Time:10.0,
+		OnCreate:putInBox_OnCreate,
+        }
+
+}

@@ -1,0 +1,263 @@
+module BWM4
+{      
+    
+    item 762x39_round
+	{
+		Count			    =	1,
+		Weight			    =	0.01,
+		Type			    =	Normal,
+		DisplayName		    =	762x39 Ammo,
+        DisplayCategory     = 	Ammo,
+		Icon			    =	762x39_round,
+		MetalValue 		    = 	1,
+        ResizeWorldIcon 	=   .50,
+	}
+
+	item 762x39_box
+    {
+        Weight              =   0.34,
+        Type                =   Normal,
+        DisplayName         =   762x39 Ammo Box,
+		DisplayCategory     =   Ammo,
+        Icon                =   762x39_box,
+        ResizeWorldIcon 	=   .50,
+    }
+
+	item 762x39_can
+    {
+        Weight              =   2,
+        Type                =   Normal,
+        DisplayName         =   762x39 Ammo Can - 200 Rounds,
+		DisplayCategory     =   Ammo,
+        Icon                =   762x39_can,
+        ResizeWorldIcon 	=   1,
+    }
+
+	item 762x39_case
+    {
+        Weight              =   11,
+        Type                =   Normal,
+        DisplayName         =   762x39 Ammo Case - 2000 Rounds,
+		DisplayCategory     =   Ammo,
+        Icon                =   762x39_case,
+        ResizeWorldIcon 	=   1,
+    }
+
+	item 762x39_cache
+    {
+        Weight              =   44,
+        Type                =   Normal,
+        DisplayName         =   762x39 Ammo Cache - 8000 Rounds,
+		DisplayCategory     =   Ammo,
+        Icon                =   762x39_cache,
+        ResizeWorldIcon 	=   1,
+    }
+
+    item 556_Round
+	{
+		Count			    =	1,
+		Weight			    =	0.01,
+		Type			    =	Normal,
+		DisplayName		    =	556 Ammo,
+        DisplayCategory     = 	Ammo,
+		Icon			    =	556_Round,
+		MetalValue 		    = 	1,
+        ResizeWorldIcon 	=   .50,
+	}
+
+	item 556_Box
+    {
+        Weight              =   0.17,
+        Type                =   Normal,
+        DisplayName         =   556 Ammo Box,
+		DisplayCategory     =   Ammo,
+        Icon                =   556_Box,
+        ResizeWorldIcon 	=   .50,
+    }
+
+	item 556_Can
+    {
+        Weight              =   1.4,
+        Type                =   Normal,
+        DisplayName         =   556 Ammo Can - 200 Rounds,
+		DisplayCategory     =   Ammo,
+        Icon                =   556_Can,
+        ResizeWorldIcon 	=   1,
+    }
+
+	item 556_Case
+    {
+        Weight              =   5,
+        Type                =   Normal,
+        DisplayName         =   556 Ammo Case - 2000 Rounds,
+		DisplayCategory     =   Ammo,
+        Icon                =   556_Case,
+        ResizeWorldIcon 	=   1,
+    }
+
+	item 556_Cache
+    {
+        Weight              =   22,
+        Type                =   Normal,
+        DisplayName         =   556 Ammo Cache - 8000 Rounds,
+		DisplayCategory     =   Ammo,
+        Icon                =   556_Cache,
+        ResizeWorldIcon 	=   1,
+    }
+
+    item 12_Gauge_Shell
+	{
+		Count			    =	1,
+		Weight			    =	0.01,
+		Type			    =	Normal,
+		DisplayName		    =	12 Gauge Ammo,
+        DisplayCategory     = 	Ammo,
+		Icon			    =	12_Gauge_Shell,
+		MetalValue 		    = 	1,
+        ResizeWorldIcon 	=   .50,
+	}
+
+	item 12_Gauge_Box
+    {
+        Weight              =   0.35,
+        Type                =   Normal,
+        DisplayName         =   12 Gauge Ammo Box,
+		DisplayCategory     =   Ammo,
+        Icon                =   12_Gauge_Box,
+        ResizeWorldIcon 	=   .50,
+    }
+
+	item 12_Gauge_Can
+    {
+        Weight              =   2,
+        Type                =   Normal,
+        DisplayName         =   12 Gauge Ammo Can - 200 Rounds,
+		DisplayCategory     =   Ammo,
+        Icon                =   12_Gauge_Can,
+        ResizeWorldIcon 	=   1,
+    }
+
+	item 12_Gauge_Case
+    {
+        Weight              =   11,
+        Type                =   Normal,
+        DisplayName         =   12 Gauge Ammo Case - 2000 Rounds,
+		DisplayCategory     =   Ammo,
+        Icon                =   12_Gauge_Case,
+        ResizeWorldIcon 	=   1,
+    }
+
+	item 12_Gauge_Cache
+    {
+        Weight              =   45,
+        Type                =   Normal,
+        DisplayName         =   12 Gauge Ammo Cache - 8000 Rounds,
+		DisplayCategory     =   Ammo,
+        Icon                =   12_Gauge_Cache,
+        ResizeWorldIcon 	=   1,
+    }
+
+    item 9mm_Round
+	{
+		Count			    =	1,
+		Weight			    =	0.01,
+		Type			    =	Normal,
+		DisplayName		    =	9mm Ammo,
+        DisplayCategory     = 	Ammo,
+		Icon			    =	9mm_Round,
+		MetalValue 		    = 	1,
+        ResizeWorldIcon 	=   .50,
+	}
+
+	item 9mm_Box
+    {
+        Weight              =   0.33,
+        Type                =   Normal,
+        DisplayName         =   9mm Ammo Box,
+		DisplayCategory     =   Ammo,
+        Icon                =   9mm_Box,
+        ResizeWorldIcon 	=   .50,
+    }
+
+	item 9mm_Can
+    {
+        Weight              =   2,
+        Type                =   Normal,
+        DisplayName         =   9mm Ammo Can - 200 Rounds,
+		DisplayCategory     =   Ammo,
+        Icon                =   9mm_Can,
+        ResizeWorldIcon 	=   1,
+    }
+
+	item 9mm_Case
+    {
+        Weight              =   10,
+        Type                =   Normal,
+        DisplayName         =   9mm Ammo Case - 2000 Rounds,
+		DisplayCategory     =   Ammo,
+        Icon                =   9mm_Case,
+        ResizeWorldIcon 	=   1,
+    }
+
+	item 9mm_Cache
+    {
+        Weight              =   42,
+        Type                =   Normal,
+        DisplayName         =   9mm Ammo Cache - 8000 Rounds,
+		DisplayCategory     =   Ammo,
+        Icon                =   9mm_Cache,
+        ResizeWorldIcon 	=   1,
+    }
+
+    item 308_Round
+	{
+		Count			    =	1,
+		Weight			    =	0.01,
+		Type			    =	Normal,
+		DisplayName		    =	308 Ammo,
+        DisplayCategory     = 	Ammo,
+		Icon			    =	308_Round,
+		MetalValue 		    = 	1,
+        ResizeWorldIcon 	=   .50,
+	}
+
+	item 308_Box
+    {
+        Weight              =   0.35,
+        Type                =   Normal,
+        DisplayName         =   308 Ammo Box,
+		DisplayCategory     =   Ammo,
+        Icon                =   308_Box,
+        ResizeWorldIcon 	=   .50,
+    }
+
+	item 308_Can
+    {
+        Weight              =   2,
+        Type                =   Normal,
+        DisplayName         =   308 Ammo Can - 200 Rounds,
+		DisplayCategory     =   Ammo,
+        Icon                =   308_Can,
+        ResizeWorldIcon 	=   1,
+    }
+
+	item 308_Case
+    {
+        Weight              =   11,
+        Type                =   Normal,
+        DisplayName         =   308 Ammo Case - 2000 Rounds,
+		DisplayCategory     =   Ammo,
+        Icon                =   308_Case,
+        ResizeWorldIcon 	=   1,
+    }
+
+	item 308_Cache
+    {
+        Weight              =   45,
+        Type                =   Normal,
+        DisplayName         =   308 Ammo Cache - 8000 Rounds,
+		DisplayCategory     =   Ammo,
+        Icon                =   308_Cache,
+        ResizeWorldIcon 	=   1,
+    }
+}

@@ -1,0 +1,78 @@
+module BWM4
+{   
+
+	item shotgunweapon
+	{
+		DisplayCategory 				= 	Weapon,
+		SubCategory						=	Firearm,
+		DisplayName						=	M1014,
+		Type							=	Weapon,
+		Icon							=	M1014,
+		ResizeWorldIcon 				= 	1,
+		Weight							=	2.8,
+		WeaponWeight					=	2.8,
+		WeaponSprite					=	shotgunweapon,
+		IsAimedHandWeapon				=	TRUE,
+		IsAimedFirearm					=	TRUE,
+
+		AmmoType						=	12_Gauge_Shell,
+		ProjectileCount					=	1,
+
+		BreakSound  					=   PZ_MetalSnap,
+        BulletOutSound 					= 	pumpaction,
+        ShellFallSound 					= 	gaugeshell,
+		SwingSound						=	M1014_Shot,
+		SoundRadius						=	100,
+		NPCSoundBoost					=	1.5,
+		ImpactSound						=	null,
+		SoundGain 						= 	2,
+		SoundVolume						=	100,
+
+		MinDamage						=	0.2,
+		MaxDamage						=	1.7,
+		DoorDamage						=	4,
+		SplatNumber						=	3,
+		PushBackMod						=	0.3,
+		ShareDamage						=	FALSE,
+		MaxHitCount						=	1,
+		SplatBloodOnNoDeath				=	TRUE,
+		KnockdownMod					=	9,
+		MultipleHitConditionAffected	=	FALSE,
+
+		Ranged							=	TRUE,
+		MinRange						=	0.61,
+		MaxRange						=	35,
+		RangeFalloff					=	TRUE,
+		AngleFalloff					=	TRUE,
+		MinAngle						=	0.95,
+
+		MinimumSwingTime				=	0.4,
+		ToHitModifier					=	1.5,
+		KnockBackOnNoDeath				=	TRUE,
+		SwingTime						=	0.4,
+		SwingAmountBeforeImpact			=	0,
+		
+		IdleAnim						=	Idle_Weapon2,
+		SwingAnim						=	Rifle,
+		RunAnim							=	Run_Weapon2,
+
+		RequiresEquippedBothHands 		= 	TRUE,
+		UseEndurance					=	FALSE,
+
+		ConditionLowerChanceOneIn		=	60,
+		ConditionMax					=	10,
+		AimingMod						=	2,
+		CriticalChance 					= 	20,
+		AimingPerkCritModifier 			= 	10,
+		HitChance 						= 	50,
+		AimingPerkHitChanceModifier 	= 	15,
+		AimingPerkMinAngleModifier		= 	0.05,
+		AimingPerkRangeModifier			= 	3,
+		RecoilDelay 					= 	1,
+		ClipSize 						= 	8,
+        ReloadTime 						= 	5,
+        AimingTime 						= 	20,
+		MetalValue 						= 	45,
+	}
+
+}
